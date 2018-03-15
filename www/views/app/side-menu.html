@@ -113,11 +113,11 @@
                     <ion-item class="item-stable" ng-click="toggleGroup(6)" ng-class="{active: isGroupShown(6)}" style="border-color: transparent;background-color: white;color: #666; border-bottom: 1px solid #e1e1e1">
                         <div style="float:left;"><img src="img/about.png" style="width:30px;"></div>
                         <div style="float:right;width:80%;margin-top:5px;">
-                            <div style="float:left;">About GoRilla</div>
+                            <div style="float:left;" ng-click="aboutGorilla()">About GoRilla</div>
                         </div>
                     </ion-item>
                 </div>
-                
+
                 <div class="menu-footer">
                     <img src="../../img/goRilla.png" alt="고릴라로고" >
                     <div class="sign-out" ng-if="islogged" ng-click="logout()">SignOut</div>

@@ -6510,6 +6510,10 @@ $scope.smsShare=function(number){
     $state.go('app.shareApp');
     $ionicSideMenuDelegate.toggleLeft();
   };
+  $scope.aboutGorilla = function() {
+    $state.go('app.aboutGorilla');
+    $ionicSideMenuDelegate.toggleLeft();
+  }
   $scope.rateApp = function(){
     AppRate.preferences = {
   openStoreInApp: true,

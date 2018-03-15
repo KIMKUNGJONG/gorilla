@@ -999,7 +999,15 @@ $ionicPlatform.registerBackButtonAction(function(event) {
       }
     }
   })
-
+  .state('app.aboutGorilla', {
+    url: '/aboutGorilla',
+    views: {
+      'menuContent': {
+        templateUrl: 'views/app/aboutGorilla.html',
+          controller: 'aboutGorilla'
+      }
+    }
+  })
 
   $urlRouterProvider.otherwise("/login");
 
