@@ -1,12 +1,4 @@
 {
   "name": "gorilla",
-  "app_id": "",
-  "integrations": {},
-  "type": "ionic1",
-  "watchPatterns": [
-    "scss/**/*",
-    "www/**/*",
-    "!www/lib/**/*",
-    "!www/**/*.map"
-  ]
+  "app_id": ""
 }
